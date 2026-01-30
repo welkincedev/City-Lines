@@ -1,16 +1,39 @@
-# city_lines
+# 🚇 City Lines
 
-A new Flutter project.
+**City Lines** is a minimalist transit-management game inspired by *Mini Metro*.
 
-## Getting Started
+Build and manage metro lines, connect stations, and keep a growing city moving without collapse.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🎮 Current Status
+**Phase 0 – Foundation Complete**
+- Flame game loop initialized
+- Dark background
+- Title screen with centered **City Lines** text
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠 Tech Stack
+- **Flutter**
+- **Flame Engine**
+
+---
+
+## 🧭 Development Philosophy
+- Simple visuals, deep systems
+- Player-driven problem solving
+- Iterative, throwaway-friendly architecture
+
+---
+
+## 📌 Roadmap (High Level)
+- Phase 1: Stations & Lines
+- Phase 2: Passenger Flow
+- Phase 3: Constraints & Pressure Systems
+- Phase 4: Polish & Balancing
+
+---
+
+## 📄 License
+Prototype / Learning Project
