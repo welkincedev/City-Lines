@@ -1,31 +1,32 @@
 import 'package:flame/game.dart';
 import 'package:flame/components.dart';
-import 'package:flutter/material.dart';
+import 'package:flame/events.dart';
 
-class CityLinesGame extends FlameGame {
-  @override
-  Color backgroundColor() => const Color(0xFF111111);
+import 'station.dart';
+
+class CityLinesGame extends FlameGame with TapCallbacks {
+  final List<Station> stations = [];
 
   @override
   Future<void> onLoad() async {
-    await super.onLoad();
+    stations.addAll([
+      Station(id: 'A', position: Vector2(100, 200)),
+      Station(id: 'B', position: Vector2(250, 350)),
+      Station(id: 'C', position: Vector2(400, 200)),
+    ]);
 
-    // Temporary debug text to confirm rendering
-    add(
-      TextComponent(
-        text: 'City Lines',
-        position: canvasSize / 2,
-        anchor: Anchor.center,
-        textRenderer: TextPaint(
-          style: const TextStyle(color: Colors.white, fontSize: 32),
-        ),
-      ),
-    );
+    addAll(stations);
   }
 
   @override
-  void update(double dt) {
-    super.update(dt);
-    // Game loop is alive
+  void onTapDown(TapDownEvent event) {
+    final worldPos = event.canvasPosition;
+
+    for (final station in stations) {
+      if (station.containsPoint(worldPos)) {
+        station.selected = !station.selected;
+        return;
+      }
+    }
   }
 }
