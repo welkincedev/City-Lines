@@ -9,7 +9,7 @@ Build and manage metro lines, connect stations, and keep a growing city moving w
 ## 🎮 Current Status
 **Phase 0 – Foundation Complete**
 - Flame game loop initialized
-- Dark background
+- Dark background with
 - Title screen with centered **City Lines** text
 
 ---
