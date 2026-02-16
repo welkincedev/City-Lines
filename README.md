@@ -12,6 +12,8 @@ Build and manage metro lines, connect stations, and keep a growing city moving w
 - Dark background with
 - Title screen with centered **City Lines** text
 
+- **Phase 2 – Comming soon**
+
 ---
 
 ## 🛠 Tech Stack
@@ -35,5 +37,4 @@ Build and manage metro lines, connect stations, and keep a growing city moving w
 
 ---
 
-## 📄 License
-Prototype / Learning Project
+Its a Prototype / Learning Project
