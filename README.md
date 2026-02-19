@@ -4,6 +4,8 @@
 
 Build and manage metro lines, connect stations, and keep a growing city moving without collapse.
 
+Also requesting your support for this gaming Repo😁
+
 ---
 
 ## 🎮 Current Status
